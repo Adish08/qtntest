@@ -21,18 +21,6 @@
 	- 📝 Quotation Form – Input details like name, contact, product, etc.
 	- 📊 Calculation Engine – Dynamically calculates the quotation based on inputs.
 	- 📋 Downloadable PDF – Generate a downloadable PDF of the quotation.
-## 🗂️ Project Structure
-
-├── app/               # Main application logic
-│   ├── api/           # Backend API routes
-│   ├── quotation/     # Quotation generation pages
-│   └── components/    # Reusable React components
-├── components/ui/     # Shadcn UI components
-├── hooks/             # Custom React hooks
-├── lib/               # Utility/helper functions
-├── public/            # Static assets (e.g. images)
-├── firebaseConfig.js  # Firebase config (not committed)
-
 
 # ⚠️ Important Notice
 
