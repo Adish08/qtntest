@@ -1,6 +1,6 @@
 // Firebase configuration
 export const firebaseConfig = {
-    apiKey: "AIzaSyDTOtocYTC-SBwVHZdQy5uafAF5up9Ubds",
+    apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
 
     authDomain: "se-legrand-quotation.firebaseapp.com",
   
