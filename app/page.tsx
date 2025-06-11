@@ -56,7 +56,8 @@ export default function LoginPage() {
     signInWithPopup(auth, provider)
       .then((result) => {
         const user = result.user;
-          const allowedEmails = ["adish.sag@gmail.com", "sagarawat@gmail.com", "ajaydiwan2077@gmail.com"]; // Add more allowed emails here
+          const allowedEmails = ["adish.sag@gmail.com", "sagarawat@gmail.com", "ajaydiwan2077@gmail.com",
+"ankesh.patel@gmail.com"]; // Add more allowed emails here
         if (user.email && allowedEmails.includes(user.email)) {
           // Redirection is handled by onAuthStateChanged
           console.log("Login successful, user:", user);
