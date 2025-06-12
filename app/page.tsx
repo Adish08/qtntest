@@ -36,7 +36,7 @@ export default function LoginPage() {
   useEffect(() => {
     const unsubscribe = onAuthStateChanged(auth, (user) => {
       if (user) {
-          const allowedEmails = ["adish.sag@gmail.com", "sagarawat@gmail.com", "ajaydiwan2077@gmail.com"]; // Add more allowed emails here
+          const allowedEmails = ["adish.sag@gmail.com", "sagarawat@gmail.com", "ajaydiwan2077@gmail.com", "ankesh150993@gmail.com"]; // Add more allowed emails here
         if (user.email && allowedEmails.includes(user.email)) {
           router.push('/quotation'); // Redirect to main app page
         } else {
